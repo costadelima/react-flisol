@@ -13,12 +13,8 @@ Caso o `node` não esteja instalado. Instale por meio do [NVM](https://github.co
 $ nvm install 10
 ```
 
-Para esse workshop iremos utilizar uma ferramenta de *scaffolding* chamada [React Creat App](https://facebook.github.io/create-react-app/docs/getting-started). Para instalar basta usar o NPM:
+Para esse workshop iremos utilizar uma ferramenta de *scaffolding* chamada [React Creat App](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```bash
-npm install -g create-react-app
-```
+> Usar uma ferramenta de *scaffolding* evita o trabalho de configurar todo o ambiente de desenvolvimento com o Webpack e Babel, mas não é o recomendado para uma aplicação em produção.
 
-> Usar uma ferramenta de *scaffolding* evita o trabalho de configurar todo o ambiente de desenvolvimento com o Webpack e Babel,mas não é o recomendado para uma aplicação em produção.
-
-[Agora iremos criar a nossa primeira aplicação usando React.](./lista-tarefas)
+[Agora iremos criar a nossa primeira aplicação usando React](./lista-tarefas)

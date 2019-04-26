@@ -9,7 +9,7 @@ Uma simples aplicação com uma lista de tarefas com o intuito de conhecer os co
 Use o React Creat App para gerar uma aplicação funcional em React:
 
 ```bash
-$ create-react-app lista-tarefas
+$ npx create-react-app lista-tarefas
 $ cd lista-tarefas
 ```
 
@@ -40,3 +40,5 @@ Substitua a `div` uma lista de tarefas com os seguintes elementos:
 * Fazer minha primeira aplicação
 
 > Para criar uma lista com HTML use elementos `li` aninhados dentro de uma `ul`.
+
+[Prosseguir para a próxima parte](./passo-1)
