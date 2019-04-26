@@ -78,4 +78,4 @@ Implemente duas funções, uma para receber o input do usuário no campo de text
 
 > De forma similar, o elemento `button` possui o listener `onClick`.
 
-[Prosseguir para a próxima parte](./passo-3)
+[Prosseguir para a próxima parte](../passo-3)

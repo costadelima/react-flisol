@@ -80,4 +80,4 @@ render() {
 
 Agora vamos colocar em prática. Altere o componente `TelaInicial.js` para gerar a lista de tarefas dinâmicamente.
 
-[Prosseguir para a próxima parte](./passo-2)
+[Prosseguir para a próxima parte](../passo-2)
