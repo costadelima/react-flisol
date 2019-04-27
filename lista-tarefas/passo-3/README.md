@@ -48,6 +48,35 @@ class TelaInicial extends React.Component {
 export default TelaInicial;
 ```
 
+# Refatorando em Componentes
+
+Um dos aspectos mais importantes do React é permitir a modularidade do código por meio de componentes. Poderiamos extrair a lista de tarefas para um novo componente:
+
+`ListaTarefas.js`
+```jsx
+class ListaTarefas extends React.Component {
+  render() {
+    const { listaTarefas } = this.props;
+    return (
+      <div>
+        <h1>Minhas tarefas:</h1>
+        <ul>
+          {listaTarefas.map(tarefa => <li>{tarefa}</li>)}
+        </ul>
+      </div>
+    );
+  }
+}
+```
+
+E declararmos uma `<ListaTarefas>` no componente `TelaInicial`:
+
+```jsx
+<ListaTarefas listaTarefas={listaTarefas} />
+```
+
+> No React, parâmetros de um componente são passados como fossem atributos HTML. Dentro do código ECMAScript podemos acessar esses parâmetros via a propriedade `this.props`;
+
 Na próxima parte do workshop iremos construir uma aplicação mais interessante: Uma cópia do Instagram.
 
 [Prosseguir para a próxima parte](../../instagram)

@@ -1,4 +1,11 @@
 # Workshop de Introdução ao React
+## Por que React?
+
+A imagem a seguir mostra a quantidade de downloads do React no NPM nos últimos seis meses: 
+
+![Downloads React x Angular x Vue](./downloads.png)
+
+React possui um grande ecossistema de pacotes que auxiliam muito o desenvolvimento de aplicações. Além disso está em constante desenvolvimento pelo Facebook.
 
 ## Primeiros passos
 
