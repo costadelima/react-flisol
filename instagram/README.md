@@ -8,9 +8,9 @@ import React from 'react';
 class TelaInicial extends React.Component {
   render() {
     return (
-      <div>
+      <main>
         Meu Instagram
-      </div>
+      </main>
     );
   }
 }
@@ -26,7 +26,7 @@ A aplicação web será *mobile-first*, ou seja, terá sua experiência de uso c
 
 ## Definindo os Componentes
 
-Antes de começar a criar o código fonte, vamos de definir os componentes que irão compor a aplicação: O *wireframe* a seguir dá uma ideia clara de quais componentes podemos separar a aplicação:
+Antes de começar a criar o código fonte, vamos de definir os componentes que irão compor a aplicação: O *wireframe* a seguir permite uma ideia clara de quais componentes podemos separar a aplicação:
 
 ![Wireframe da cópia do Instagram](./wireframe.png)
 
