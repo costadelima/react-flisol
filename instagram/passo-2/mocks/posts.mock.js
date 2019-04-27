@@ -1,5 +1,14 @@
 export const POSTS = [{
-  nomeUsuario: 'paulodaluz',
+  nomeUsuario: 'joaosilva',
+  localizacao: 'Old Trafford',
+  contagemLikes: 17,
+  postUrl: 'https://res.cloudinary.com/clynton/image/upload/c_fill,h_360,w_360/v1556312940/football_w026dq',
+  thumbUrl: 'https://res.cloudinary.com/clynton/image/upload/c_thumb,h_34,w_34/v1556312081/joao_ztj5w1.jpg',
+  comentarios: [
+    { nomeUsuario: 'mateussenna', textoComentario: 'Que jogo emocionante!' },
+    { nomeUsuario: 'georgesouza', textoComentario: 'Legal ein!' }
+  ]
+}, {  nomeUsuario: 'paulodaluz',
   localizacao: 'Belo Horizonte',
   contagemLikes: 38,
   postUrl: 'https://res.cloudinary.com/clynton/image/upload/c_fill,h_360,w_360/v1556312940/buildings_jth9gc',
@@ -7,6 +16,12 @@ export const POSTS = [{
   comentarios: [
     { nomeUsuario: 'bernardogui', textoComentario: 'Boa foto' }
   ]
+}, {
+  nomeUsuario: 'raquelpaula',
+  localizacao: 'Cáncun',
+  contagemLikes: 152,
+  postUrl: 'https://res.cloudinary.com/clynton/image/upload/c_fill,h_360,w_360/v1556312940/cancun_wnjt9v',
+  thumbUrl: 'https://res.cloudinary.com/clynton/image/upload/c_thumb,h_34,w_34/v1556312081/raquel_samdbi.jpg'
 }, {
   nomeUsuario: 'taisferreira',
   localizacao: 'Serra do Cipó',
@@ -52,4 +67,21 @@ export const POSTS = [{
   contagemLikes: 3,
   postUrl: 'https://res.cloudinary.com/clynton/image/upload/c_fill,h_360,w_360/v1556312940/cat_ryfgru',
   thumbUrl: 'https://res.cloudinary.com/clynton/image/upload/c_thumb,h_34,w_34/v1556312081/barbara_vlot1u'
-}]
+}, {
+  nomeUsuario: 'mariaclara',
+  contagemLikes: 33,
+  postUrl: 'https://res.cloudinary.com/clynton/image/upload/c_fill,h_360,w_360/v1556312940/cute_hk02d0',
+  thumbUrl: 'https://res.cloudinary.com/clynton/image/upload/c_thumb,h_34,w_34/v1556312081/maria_maxz4g',
+  comentarios: [
+    { nomeUsuario: 'tiagosilva', textoComentario: 'Que bonitinho!' }
+  ]
+}, {
+  nomeUsuario: 'paulodaluz',
+  localizacao: 'Belo Horizonte',
+  contagemLikes: 22,
+  postUrl: 'https://res.cloudinary.com/clynton/image/upload/c_fill,h_360,w_360/v1556312940/city_nirne3',
+  thumbUrl: 'https://res.cloudinary.com/clynton/image/upload/c_thumb,h_34,w_34/v1556312081/paulo_rrzi3m.jpg',
+  comentarios: [
+    { nomeUsuario: 'heltonfel', textoComentario: 'Odeio BH =(' }
+  ]
+}];

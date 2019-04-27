@@ -128,6 +128,9 @@ const Post = ({ post }) => {
       {possuiComentarios &&
         <Comentarios comentarios={post.comentarios} />}
     </div>
-  )
-}
+  );
+};
 ```
+Implemente os componentes `CabecalhoPost`, `ImagemPost`, `AcoesPost`, `ContagemCurtidas` e `Comentarios` de acordo com o *wireframe*.
+
+[Prosseguir para a próxima parte](../passo-3)
