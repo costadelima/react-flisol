@@ -11,10 +11,14 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const styles = {
   nav: {
+    backgroundColor: 'white',
     display: 'flex',
     flexDirection: 'row',
     padding: '23px 20px',
-    borderBottom: '1px solid lightgray'
+    borderBottom: '1px solid lightgray',
+    position: 'fixed',
+    zIndex: 1,
+    width: '100%'
   },
   divIcone: {
     paddingRight: 16,
@@ -76,7 +80,7 @@ class TelaInicial extends React.Component {
 }
 ```
 
-Agora vamos criar um novo componente chamado `ListaPosts.js` e um componente `Post.js`:
+Agora vamos criar um novo componente chamado `ListaPosts.js`:
 
 ```jsx
 import React from 'react';
@@ -94,6 +98,7 @@ class ListaPosts extends React.Component {
 
 export default ListaPosts;
 ```
+E um componente `Post.js`:
 
 ```jsx
 const Post = ({ post }) => {
@@ -104,6 +109,22 @@ const Post = ({ post }) => {
   );
 }
 ```
+
+E o arquivo `TelaInicial.js`:
+
+```jsx
+class TelaInicial extends React.Component {
+  render() {
+    return (
+      <main>
+        <Cabecalho />
+        <ListaPosts />
+      </main>
+    );
+  }
+}
+```
+
 
 O wireframe de um post contém os seguintes elementos:
 

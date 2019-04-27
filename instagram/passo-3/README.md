@@ -1,6 +1,6 @@
 ## Chegamos ao fim
 
-Uma possível implementação para os componentes é a seguir:
+Uma possível implementação para os componentes é a seguinte:
 
 `Post.js`:
 

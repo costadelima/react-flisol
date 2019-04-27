@@ -18,7 +18,7 @@ class TelaInicial extends React.Component {
 export default TelaInicial;
 ```
 
-O objetivo desse exercício é fazer uma cópia **simplicada** do Instagram. Uma versão funcional pode ser acessada [aqui](www.google.com).
+O objetivo desse exercício é fazer uma cópia **simplicada** do Instagram. Uma versão funcional pode ser acessada [aqui](https://react-flisol.herokuapp.com/).
 
 A aplicação web será *mobile-first*, ou seja, terá sua experiência de uso centrada em dispositivos mobile.
 
