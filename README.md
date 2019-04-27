@@ -1,4 +1,10 @@
 # Workshop de Introdução ao React
+
+React é uma biblioteca ECMAScript de código aberto para o desenvolvimento de interfaces de usuário. É mantida pelo Facebook e Instagram.
+
+> React permite a criação de SPAs (Single-page Applications), que são aplicações que a interação do usuário não necessita que a página seja regarregada no navegador.
+
+
 ## Por que React?
 
 A imagem a seguir mostra a quantidade de downloads do React no NPM nos últimos seis meses: 
